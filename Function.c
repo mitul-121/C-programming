@@ -1,10 +1,7 @@
 #include <stdio.h>
 
 /* function declaration */
-void print_big(int number){
-    if(number > 10)
-        printf("%d is big\n");
-}
+void print_big(int number);
 
 int main() {
   int array[] = { 1, 11, 2, 22, 3, 33 };
@@ -13,4 +10,11 @@ int main() {
     print_big(array[i]);
   }
   return 0;
+}
+void print_big(int number){
+  if ( number > 10)
+  {
+    printf("%d aS\n",number);
+  }
+  
 }
